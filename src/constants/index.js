@@ -23,7 +23,11 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    json,
+    pokemon,
+    cookies,
+    cvs
 } from "../assets/icons";
 
 export const skills = [
@@ -106,62 +110,66 @@ export const skills = [
         imageUrl: typescript,
         name: "TypeScript",
         type: "Frontend",
-    }
+    },
+    {
+    imageUrl: json,
+        name: "JSON",
+        type: "Frontend",
+}
 ];
 
 export const experiences = [
     {
-        title: "Example Job Title",
-        company_name: "Example Company",
-        icon: starbucks,
+        title: "Crumbl Cookies",
+        company_name: "Bakery Associate",
+        icon: cookies,
         iconBg: "#accbe1",
-        date: "??? - ???",
+        date: "Mar 2022 - Jun 2022",
         points: [
-            "Example Sentence",
-            "Example Sentence",
-            "Example Sentence",
-            "The rest below are placeholders",
+            "Provided efficient customer service and handled cashiering duties",
+            "Worked with a team of 6 and developed teamwork, leadership, team project skills",
+            "Produced and boxed cookies, ensuring quality and presentation",
+            "Maintained cleanliness through dishwashing and garbage clearance",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Store Associate",
+        company_name: "CVS Health",
+        icon: cvs,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "Sep 2023 - Dec 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Processed customer transactions efficiently at the front of the store, enhancing the customer experience",
+            "Organized and restocked aisles regularly to maintain store presentation and product availability",
+            "Assisted customers in finding products, processing refunds, and applying coupons, ensuring customer satisfaction",
         ],
     },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+   // {
+      //  title: "Web Developer",
+    //    company_name: "Shopify",
+     //   icon: shopify,
+     //   iconBg: "#b7e4c7",
+     //   date: "Jan 2022 - Jan 2023",
+     //   points: [
+   //         "Developing and maintaining web applications using React.js and other related technologies.",
+  //          "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //          "Implementing responsive design and ensuring cross-browser compatibility.",
+  //          "Participating in code reviews and providing constructive feedback to other developers.",
+  //      ],
+  //  },
+   // {
+    //    title: "Full stack Developer",
+    //    company_name: "Meta",
+    //    icon: meta,
+    //    iconBg: "#a2d2ff",
+    //    date: "Jan 2023 - Present",
+    //    points: [
+    //        "Developing and maintaining web applications using React.js and other related technologies.",
+    //        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+   //         "Implementing responsive design and ensuring cross-browser compatibility.",
+   //         "Participating in code reviews and providing constructive feedback to other developers.",
+     //   ],
+    //},
 ];
 
 export const socialLinks = [
@@ -184,18 +192,18 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl: pokemon,
         theme: 'btn-back-red',
-        name: 'Placeholders',
-        description: 'description',
-        link: 'https://jujutsu-kaisen.fandom.com/wiki/Yuji_Itadori',
+        name: 'Web Pokedex',
+        description: 'Developed a full-stack Pokedex application utilizing Node.js, Express, and Axios to fetch and filter Pokémon data from the PokéAPI, with a responsive front-end built using HTML, CSS, and JavaScript',
+        link: 'https://github.com/ayubahmed901/Pokedex',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
         name: '???',
         description: '???',
-        link: '',
+        link: 'https://jujutsu-kaisen.fandom.com/wiki/Yuji_Itadori',
     },
     {
         iconUrl: car,

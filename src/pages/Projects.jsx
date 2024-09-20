@@ -12,7 +12,7 @@ const Projects = () => {
         </h1>
 
         <div className="mt-5 flex-col gap-3 text-slate-500">
-          <p>This is a work in progress</p>
+          <p>Stay tuned for more!</p>
         </div>
 
         <div className="flex flex-wrap my-20 gap-16">

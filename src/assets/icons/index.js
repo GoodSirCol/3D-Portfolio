@@ -26,6 +26,10 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import json from './json.png'
+import pokemon from './pokemon.png'
+import cookies from './cookies.png'
+import cvs from './cvs.png'
 
 export {
     css,
@@ -55,5 +59,9 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    json,
+    pokemon,
+    cookies,
+    cvs
 }
