@@ -30,6 +30,7 @@ import json from './json.png'
 import pokemon from './pokemon.png'
 import cookies from './cookies.png'
 import cvs from './cvs.png'
+import vscode from './vscode.png'
 
 export {
     css,
@@ -63,5 +64,6 @@ export {
     json,
     pokemon,
     cookies,
-    cvs
+    cvs,
+    vscode
 }

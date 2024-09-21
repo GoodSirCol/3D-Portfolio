@@ -13,7 +13,9 @@ const About = () => {
         </h1>
 
         <div className="mt-5 flex-col gap-3 text-slate-500">
-          <p>Software Engineer based in America, Undergraduate student majoring in B.S. Computer Science.</p>
+        <p className="text-lg"> 
+          <p>I am an undergraduate student pursuing a Bachelor's in Computer Science at the University of St. Thomas. My primary goal is to become a software developer who develops practical and effective software solutions that address real-world challenges. To achieve this, I am focusing on learning programming skills and creating projects, which uses React.js to enhance my understanding of front-end development and user interface design. These experiences help me gain hands-on experience and stay current with technological innovations and best practices.</p>
+        </p>
         </div>
 
         <div className="py-10 flex flex-col">
@@ -27,6 +29,7 @@ const About = () => {
               src={skill.imageUrl}
               alt={skill.name}
               className="w-1/2 h-1/2 object-contain"
+              title={skill.name}
                 />
             </div>
           </div>
@@ -50,6 +53,7 @@ const About = () => {
                   src={experience.icon}
                     alt={experience.company_name}
                     className="w-[60%] h-[60%] object-contain"
+                    title={experience.company_name}
                     />
                   </div>}
                   iconStyle={{ background: experience.iconBg }}

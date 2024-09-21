@@ -1,9 +1,7 @@
 import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
-    car,
     contact,
     css,
-    estate,
     express,
     git,
     github,
@@ -15,19 +13,16 @@ import {
     mui,
     nextjs,
     nodejs,
-    pricewise,
     react,
     redux,
     sass,
-    snapgram,
-    summiz,
     tailwindcss,
-    threads,
     typescript,
     json,
     pokemon,
     cookies,
-    cvs
+    cvs,
+    vscode
 } from "../assets/icons";
 
 export const skills = [
@@ -115,6 +110,11 @@ export const skills = [
     imageUrl: json,
         name: "JSON",
         type: "Frontend",
+},
+{
+imageUrl: vscode,
+        name: "Visual Studio Code",
+        type: "IDE",
 }
 ];
 
@@ -144,32 +144,6 @@ export const experiences = [
             "Assisted customers in finding products, processing refunds, and applying coupons, ensuring customer satisfaction",
         ],
     },
-   // {
-      //  title: "Web Developer",
-    //    company_name: "Shopify",
-     //   icon: shopify,
-     //   iconBg: "#b7e4c7",
-     //   date: "Jan 2022 - Jan 2023",
-     //   points: [
-   //         "Developing and maintaining web applications using React.js and other related technologies.",
-  //          "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //          "Implementing responsive design and ensuring cross-browser compatibility.",
-  //          "Participating in code reviews and providing constructive feedback to other developers.",
-  //      ],
-  //  },
-   // {
-    //    title: "Full stack Developer",
-    //    company_name: "Meta",
-    //    icon: meta,
-    //    iconBg: "#a2d2ff",
-    //    date: "Jan 2023 - Present",
-    //    points: [
-    //        "Developing and maintaining web applications using React.js and other related technologies.",
-    //        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-   //         "Implementing responsive design and ensuring cross-browser compatibility.",
-   //         "Participating in code reviews and providing constructive feedback to other developers.",
-     //   ],
-    //},
 ];
 
 export const socialLinks = [
@@ -198,39 +172,5 @@ export const projects = [
         description: 'Developed a full-stack Pokedex application utilizing Node.js, Express, and Axios to fetch and filter Pokémon data from the PokéAPI, with a responsive front-end built using HTML, CSS, and JavaScript',
         link: 'https://github.com/ayubahmed901/Pokedex',
     },
-    {
-        iconUrl: threads,
-        theme: 'btn-back-green',
-        name: '???',
-        description: '???',
-        link: 'https://jujutsu-kaisen.fandom.com/wiki/Yuji_Itadori',
-    },
-    {
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: '???',
-        description: '???',
-        link: '',
-    },
-    {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: '???',
-        description: '???',
-        link: '',
-    },
-    {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: '???',
-        description: '???',
-        link: '',
-    },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: '???',
-        description: '???',
-        link: '',
-    }
+    
 ];
